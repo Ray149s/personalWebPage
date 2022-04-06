@@ -4,8 +4,8 @@ html{
 }
 
 body{
-    background-color: rgb(66, 223, 181);
-    background-image: url(images/background-adare-restaurant.jpg);
+    background-color: rgb(68, 69, 69);
+    background-image: url(images/);
     background-size: cover; 
     background-repeat: no-repeat; /*keep image from repeting itself down the page*/
 
@@ -18,11 +18,10 @@ body{
     width: 1024px;
 }
 
+
 header {
     /* background-color: blue; */
-    height: 118px;
-    text-align: center;
-    
+   text-align: center;
 
 }
 nav{
@@ -53,6 +52,15 @@ h1{
     
     font-size: 84px;
     color: white ;
+   font-family: Arial, Helvetica, sans-serif; 
+   
+}
+
+h2{
+
+    
+    font-size: 24px;
+    color: rgb(188, 179, 179) ;
    font-family: Arial, Helvetica, sans-serif; 
    
 }
