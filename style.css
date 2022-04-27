@@ -15,44 +15,95 @@ body{
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1024px;
+    width:auto;
+   
+    
+}
+
+.container2 {
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-top: 1px;
+}
+b{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    margin-top: 178px;
+}
+nav b{
+    text-decoration: none;
+    font-size: 64px;
+    padding-left: 1px;
+ }
+
+.containter3{
+    height: auto;
+    width:auto;
 }
 
 
 header {
     /* background-color: blue; */
-   text-align: center;
+    align-items: center;
+    text-align: center;
 
 }
 nav{
     background-color: rgb(0, 0, 0, 0.338);
-    text-align: center;
+    text-align: right;
     padding-top: 14px;
-    padding-bottom: 14px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    margin-bottom: 1px;
+    
+    
     
 }
 main {
     /* background-color: orange; */
-    height: 400px;
-    text-align: center;
-    padding-top: 80px; /* padding will affect the orientation of things inside teh box*/
+    background-color: rgba(252, 250, 250, 0.338);
+    margin-top: 1px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 5px;
+   
+    height:1040px;
+    
+
+    text-align: left;
+    padding-top: 10px; /* padding will affect the orientation of things inside teh box*/
     /* margin-top: 80px; */ 
                              /* margin will affect the boxes orientation to the page */ 
-    padding-left: 240px;
+    padding-left: 100px;
     padding-right: 240px;
 
     
 }
+
+
+main h2{
+    font-size: 24px;
+    color: rgb(253, 253, 253) ;
+   font-family: Arial, Helvetica, sans-serif; 
+}
 footer{
+    margin-top: 5px;
     background-color: rgba(18, 20, 15, 0.338);
 
 }
 h1{
 
     
-    font-size: 84px;
+    font-size: 64px;
     color: white ;
-   font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
+    
    
 }
 
@@ -71,8 +122,11 @@ p{
    font-family: Arial, Helvetica, sans-serif; 
 }
 
+
+
 footer p{
-    font-size: 14px;
+    margin-bottom: 10px;
+    font-size: 15px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -84,6 +138,12 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+c{ 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+}
 /*This is called a compound selectors*/
 nav a{
    text-decoration: none;
@@ -92,6 +152,15 @@ nav a{
    padding-right: 10px;
 
 }
+
+
+ nav c{
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    
+ }
 
 .maps{
     padding-bottom: 100px;
